@@ -12,4 +12,5 @@ Inspiratie:
 - 36 Days of Type x p5.js - https://36xp5.site/
 
 Ideeën sketch illustrator:
+
 ![-screenshot-](images/generativeart-inspo1.jpg)
