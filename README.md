@@ -14,3 +14,4 @@ Inspiratie:
 Ideeën sketch illustrator:
 
 ![-screenshot-](images/generativeart-inspo1.jpg)
+![-screenshot-](images/generativeart-inspo2.jpg)
