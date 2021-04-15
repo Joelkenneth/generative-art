@@ -15,3 +15,9 @@ Ideeën sketch illustrator:
 
 ![-screenshot-](images/generativeart-inspo1.jpg)
 ![-screenshot-](images/generativeart-inspo4.jpg)
+
+Feedback:
+- Geluid van golven en wind toevoegen
+- Minder minimalistisch, meer fantasierijk
+- Uitgang van het concept goed
+- Surfer toevoegen
