@@ -48,6 +48,7 @@ Feedback:
 Op zoek gegaan naar voorbeelden van waves in p5.js en daaruit inspiratie op doen. Deze code deels eigen aan het maken en aan het kijken wat voor effect wijzigingen hebben op het ontwerp. Wanneer je met de muis van links naar rechts over de window beweegt dan komt er meer beweging in de vormen.
 
 ![-screenshot-](images/generativeart-week1.jpg)
+https://editor.p5js.org/Joelkenneth/sketches/atj7rqPlw
 
 Ook geprobeerd een Deep Sea gradient background toe te voegen, maar nog niet met succes. De losse background gradient is wel gelukt, maar het toepassen op de waves klopt nog niet.
 
