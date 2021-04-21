@@ -45,8 +45,7 @@ Feedback:
 - Surfer toevoegen
 
 ### Week-2
-Op zoek gegaan naar voorbeelden van waves in p5.js en daaruit inspiratie op doen.
-Deze code deels eigen aan het maken en aan het kijken wat voor effect wijzigingen hebben op het ontwerp.
+Op zoek gegaan naar voorbeelden van waves in p5.js en daaruit inspiratie op doen. Deze code deels eigen aan het maken en aan het kijken wat voor effect wijzigingen hebben op het ontwerp. Wanneer je met de muis van links naar rechts over de window beweegt dan komt er meer beweging in de vormen.
 
 ![-screenshot-](images/generativeart-week1.jpg)
 
