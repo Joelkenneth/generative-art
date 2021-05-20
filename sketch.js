@@ -1,5 +1,3 @@
-let bg;
-
 const arr = [];
 let bubble;
 
@@ -12,13 +10,13 @@ var flying = 0;
 
 var terrain = [];
 
+let cloudx = 100;
+let cloudy = 100;
+
 let snowflakes = []; // array to hold snowflake objects
 
 function setup() {
     createCanvas(windowWidth, windowHeight, WEBGL);
-    
-    bg = loadImage('images/tatasteel.jpg');
-
     cols = w / scl;
   rows = h / scl;
 
@@ -32,7 +30,7 @@ function setup() {
 
 function draw() {
     //Make background black
-    background(bg);
+    background(63, 191, 191);
   
     bubble = new Bubble();
     if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
@@ -73,6 +71,17 @@ function draw() {
     }
     endShape();
   }
+
+  makeCloud(cloudx, cloudy-1000);
+  makeCloud(cloudx - 500, cloudy - 750);
+  makeCloud(cloudx - 600, cloudy - 800);
+  makeCloud(cloudx + 300, cloudy - 750);
+  makeCloud(cloudx + 200, cloudy - 800);
+  makeCloud(cloudx + 1000, cloudy - 750);
+  makeCloud(cloudx + 900, cloudy - 800);
+  fill(208, 204, 204);
+  noStroke();
+  cloudx+=0.5;
   
   let t = frameCount / 20; // update time
 
@@ -122,6 +131,14 @@ class Bubble {
     }
 }
 
+function makeCloud(cloudx, cloudy) {
+  fill(250)
+  noStroke();
+  ellipse(cloudx, cloudy, 400, 700);
+  ellipse(cloudx + 100, cloudy + 10, 300, 200);
+  ellipse(cloudx - 200, cloudy + 10, 300, 200);
+}
+
 // snowflake class
 function snowflake() {
 
@@ -158,3 +175,8 @@ function snowflake() {
     ellipse(this.posX, this.posY, this.size);
   };
 }
+
+// clouds bron: https://editor.p5js.org/mena-landry/sketches/D7ql4Nd3V 
+// 3D perlin noise waves bron: https://www.youtube.com/watch?v=IKB1hWWedMk
+// Surfer / Smoke particle system bron: https://www.youtube.com/watch?v=UcdigVaIYAk
+// Black snow/rain bron: https://p5js.org/examples/simulate-snowflakes.html
